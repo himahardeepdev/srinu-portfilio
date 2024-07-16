@@ -7,6 +7,7 @@ const NavBar = () => {
   const options = [
     { name: "Home", path: "/" },
     { name: "Work", path: "/work" },
+    {name : "Contact" , path : "/"}
   ];
 
   return (

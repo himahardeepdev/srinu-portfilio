@@ -50,8 +50,11 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin: 10px;
+margin: 10px ;
 
+}
+.setting{
+    margin-top: -30px;
 }
 
 .button-title{
