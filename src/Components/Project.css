@@ -11,3 +11,17 @@
     margin-top: 40px;
     height: 600px;
 } 
+
+@media (max-width: 576px) {
+        .project-img{
+            width: 450px;
+            height: auto;
+        }
+}
+
+@media (max-width: 768px){
+    .project-img{
+        width: 500px;
+        height: auto;
+    }
+}

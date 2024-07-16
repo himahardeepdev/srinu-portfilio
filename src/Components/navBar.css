@@ -1,4 +1,4 @@
-.navBar{
+.navBar {
     display: flex;
     color: white;
     width: 100%;
@@ -8,36 +8,55 @@
     top: 0;
     padding: 0px;
     height: 65px;
-   
     z-index: 100;
-}
+  }
 
-.navBar div{
+  .navBar div p{
+    margin-top: 20px;
+  }
+  
+  .navBar div {
     width: 300px;
     margin-left: 100px;
     margin-top: -10px;
-
-}
-
-
-
-.navBar ul{
+    margin-right: 30px;
+  }
+  
+  .navBar ul {
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 100px;
     padding: 0px;
-}
-
-.navBar ul li{
+  }
+  
+  .navBar ul li {
     margin-right: 50px;
-}
-
-.options{
+  }
+  
+  .options {
     color: white;
     text-decoration: none;
-}
-
-.activestate{
+  }
+  
+  .activestate {
     color: gray;
-}
+  }
+  
+  @media (max-width: 576px) {
+    .options {
+      color: red; /* Change color to red for mobile phones */
+    }
+
+    .navBar div {
+      width: 300px;
+      margin-left:50px;
+      margin-top: -10px;
+      margin-right: 30px;
+    }
+  }
+  
+
+
+ 
+  

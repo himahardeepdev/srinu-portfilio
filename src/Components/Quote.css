@@ -26,3 +26,16 @@ font-weight: 500;
 line-height: normal;
 margin-top: -50px;
 }
+
+@media (max-width: 576px) {
+    .quote{
+        width: 100%;
+    }
+    .quote h1{
+        width: 80%;
+        font-size: 32px;
+               
+    }
+  }
+
+

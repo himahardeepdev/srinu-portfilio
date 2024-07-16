@@ -73,3 +73,15 @@ margin: 10px ;
 .behance{
     padding-right: 20px;
 }
+
+@media (max-width: 576px) {
+    .contact{
+        width: 100%;  
+        padding: 0px;
+    }
+
+    .contact-text{
+        width: 80%;
+        margin-left: 50px;
+    }
+  }

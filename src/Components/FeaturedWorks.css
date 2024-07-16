@@ -77,3 +77,39 @@ font-weight: 500;
 line-height: normal;
 }
 
+
+
+@media (max-width: 576px) {
+    .fetures{
+        margin: 30px;
+    }
+    .fetures h1{
+        margin-left: 20px;
+        font-size: 32px;
+    }
+    .features-imgs{
+        display: block;
+        margin: 10px
+    }
+    .features-img{
+        width: 420px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .fetures h1{
+        margin-left: 10px;
+        color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .features-imgs{
+        display: block;
+        margin: 10px
+    }
+}
