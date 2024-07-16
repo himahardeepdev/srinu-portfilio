@@ -1,4 +1,4 @@
-import React ,{ useState } from 'react'
+import React ,{  useState } from 'react'
 import './FeaturedWorks.css';
 import { FaArrowRight } from "react-icons/fa";
 import image1 from '../images/nextflix.png';
@@ -7,6 +7,7 @@ import image3 from '../images/ordershiped.png';
 import imagegit1 from '../images/Spotlight_gif.gif';
 import imagegif2 from '../images/OrderReciveed_gif.gif';
 import { Link } from 'react-router-dom';
+
 const FeaturedWorks = () => {
   const [hoveredImage, setHoveredImage] = useState(null);
     const imagepath = [{imgpath  : image1 , imggif : image1, title : "Netflix Merchandise Store" , sub_title : "Mobile App" ,to_path_text : "View Case  Study" } , {imgpath : image2, imggif : imagegit1 , title : "Spotlight" , sub_title : "Micro Interaction" , to_path_text : "View"} , {imgpath : image3, imggif : imagegif2,title : "Order Shipped " , sub_title : "Micro Interaction" , to_path_text : "View" }]; 
@@ -18,7 +19,9 @@ const FeaturedWorks = () => {
       setHoveredImage(null);
     };
   return (
- 
+    
+
+   
      <div className='fetures'>
       <h1>Featured Works</h1>
       <div className='features-imgs'>
@@ -40,8 +43,12 @@ const FeaturedWorks = () => {
                 </div></Link>)
             })
         }
+         
       </div>
+      
     </div>
+  
+    
    
   )
 }

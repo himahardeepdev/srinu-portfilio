@@ -4,15 +4,19 @@ import AboutMe from './AboutMe'
 import Quote from './Quote'
 import FeaturedWorks from './FeaturedWorks'
 import Contact from './Contact'
-
+import { Element } from 'react-scroll';
 const Home = () => {
   return (
     <div>
-      <Intro/>
+      <Element name="home">
+        <Intro/>
+      </Element>
       <AboutMe/>
       <Quote/>
       <FeaturedWorks/>
-      <Contact id="contact" />
+      <Element name="contactSection">
+        <Contact />
+      </Element>
     </div>
   )
 }

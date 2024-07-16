@@ -1,25 +1,23 @@
 import React from 'react'
 import './navBar.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import {  animateScroll as scroll } from 'react-scroll';
 const NavListOptions = ({name , path , activeState , setActiveState}) => {
 
-
-  
- if(name === "Contact"){
-      return (
-        <li className={ activeState === name ? "options" : "options activestate"} onClick={()=>{setActiveState("Home")}}>
-           {name}
-        </li>
-      )
- }else{ 
+    
+  const setPage = (name)=>{
+      scroll.scrollToTop()  
+      setActiveState(name);
+    }
+   
   return (
     <li>
-        <Link to={path} className={ activeState === name ? "options" : "options activestate"   } onClick={()=>{setActiveState(name)}}   >
+        <Link to={path} className={ activeState === name ? "options" : "options activestate"   } onClick={()=>{setPage(name)}}>
             {name}
         </Link>
     </li>
   )
- }
+ 
 }
 
 export default NavListOptions
