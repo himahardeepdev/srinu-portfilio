@@ -40,7 +40,7 @@
   }
   
   .activestate {
-    color: red;
+    color: gray;
   }
   
   @media (max-width: 576px) {
