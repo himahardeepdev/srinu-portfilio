@@ -1,5 +1,5 @@
 .fetures{
-    width: 80%;
+    width: 90%;
     margin: 150px auto 50px;
 }
 .link{
@@ -34,6 +34,7 @@ z-index: 0;
 }
 .card{
     margin-bottom: 30px;
+    margin-right: 10    0px;
 }
 .image-text{
     position: relative;
