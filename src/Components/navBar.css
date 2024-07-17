@@ -45,7 +45,10 @@
   
   @media (max-width: 576px) {
     .options {
-      color: red; /* Change color to red for mobile phones */
+      color: white /* Change color to red for mobile phones */
+    }
+    .activestate {
+      color: gray;
     }
 
     .navBar div {

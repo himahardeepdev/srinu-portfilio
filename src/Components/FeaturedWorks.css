@@ -40,7 +40,7 @@ z-index: 0;
     z-index: 1;
     color: #FFF;
     width: 88.8% ;
-    margin-top: -115px;
+    margin-top: -110px;
     padding: 10px;
     margin-left: 20px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.435));
@@ -81,7 +81,7 @@ line-height: normal;
 
 @media (max-width: 576px) {
     .fetures{
-        margin: 30px;
+        margin-top: 70px;
     }
     .fetures h1{
         margin-left: 20px;
@@ -93,6 +93,16 @@ line-height: normal;
     }
     .features-img{
         width: 420px;
+    }
+    .image-text{
+        position: relative;
+        z-index: 1;
+        color: #FFF;
+        width: 103% ;
+        margin-top: -110px;
+        padding: 10px;
+        margin-left: 20px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.169), rgba(0, 0, 0, 0.435));
     }
 }
 
