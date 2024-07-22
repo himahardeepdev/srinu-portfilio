@@ -37,10 +37,10 @@ const FeaturedWorks = () => {
                   <span className='title'>{title}</span><br />
                   <span className='sub_title'>{sub_title}</span>
                   <br />
-                  <div className='center-text'>
+                 
                   <span className='to_path_text'>{to_path_text}</span>
                   <span className='arrow'><FaArrowRight/></span>
-                  </div>
+                  
                   </div>
                 </div></Link>)
             })

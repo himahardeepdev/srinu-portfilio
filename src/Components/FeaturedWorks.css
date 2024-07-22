@@ -50,6 +50,8 @@ z-index: 0;
 .arrow{
     margin: 10px;
     font-weight: 100px;
+    position: relative;
+    top: 3px;
 }
 
 .title{
@@ -79,9 +81,7 @@ font-weight: 500;
 line-height: normal;
 }
 
-.center-text{
-    text-align: center;
-}
+
 
 
 
