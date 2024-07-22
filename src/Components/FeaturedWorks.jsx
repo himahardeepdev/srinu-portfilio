@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const FeaturedWorks = () => {
   const [hoveredImage, setHoveredImage] = useState(null);
-    const imagepath = [{imgpath  : image1 , imggif : image1, title : "Netflix Merchandise Store" , sub_title : "Mobile App" ,to_path_text : "View Case  Study" } , {imgpath : image2, imggif : imagegit1 , title : "Spotlight" , sub_title : "Micro Interaction" , to_path_text : "View"} , {imgpath : image3, imggif : imagegif2,title : "Order Shipped " , sub_title : "Micro Interaction" , to_path_text : "View" }]; 
+    const imagepath = [{imgpath  : image1 , imggif : image1, title : "Netflix Merchandise Store" , sub_title : "Mobile App" ,to_path_text : "View Case  Study" } , {imgpath : image2, imggif : imagegit1 , title : "Spotlight"  , to_path_text : "View"} , {imgpath : image3, imggif : imagegif2,title : "Order Shipped " , to_path_text : "View" }]; 
     const handleMouseEnter = (image) => {
       setHoveredImage(image);
     };
@@ -37,8 +37,10 @@ const FeaturedWorks = () => {
                   <span className='title'>{title}</span><br />
                   <span className='sub_title'>{sub_title}</span>
                   <br />
+                  <div className='center-text'>
                   <span className='to_path_text'>{to_path_text}</span>
                   <span className='arrow'><FaArrowRight/></span>
+                  </div>
                   </div>
                 </div></Link>)
             })
